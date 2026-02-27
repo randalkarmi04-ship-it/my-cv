@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import './globals.css'
 
 export const metadata = {
-  title: 'Ahmad CV - مطور واجهات أمامية',
+  title: 'Rand CV - مطور واجهات أمامية',
   description: 'السيرة الذاتية والمهارات والمشاريع',
 }
 
