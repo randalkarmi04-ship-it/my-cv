@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "name": "رند الكرمي",
+    "title": "مطور واجهات أمامية",
+    "email": "rand@example.com",
+    "phone": "+962 7744552",
+    "location": "عمان, الاردن",
+    "bio": "مطور واجهات أمامية شغوف بإنشاء تجارب مستخدم رائعة. أعمل في مجال تطوير الويب منذ 3 سنوات، أحب التعلم ومشاركة المعرفة مع المجتمع.",
+    "avatar": "/images/profile.jpg",
+    "availability": "متاح للعمل",
+    "social": {
+      "github": "https://github.com/randalkarmi04-ship-it/my-cv",
+      "linkedin": "https://linkedin.com/in",
+      "twitter": "https://twitter.com",
+      "instagram": "https://instagram.com"
+    }
+  },
+  "skills": [
+    { "name": "React.js", "level": 90, "icon": "FaReact", "color": "#61DAFB" },
+    { "name": "Next.js", "level": 85, "icon": "SiNextdotjs", "color": "#000000" },
+    { "name": "JavaScript", "level": 88, "icon": "SiJavascript", "color": "#F7DF1E" },
+    { "name": "TypeScript", "level": 75, "icon": "SiTypescript", "color": "#3178C6" },
+    { "name": "HTML5", "level": 95, "icon": "FaHtml5", "color": "#E34F26" },
+    { "name": "CSS3", "level": 92, "icon": "FaCss3", "color": "#1572B6" },
+    { "name": "Tailwind CSS", "level": 90, "icon": "SiTailwindcss", "color": "#06B6D4" },
+    { "name": "Node.js", "level": 70, "icon": "FaNodeJs", "color": "#339933" },
+    { "name": "Git", "level": 85, "icon": "FaGitAlt", "color": "#F05032" },
+    { "name": "Figma", "level": 75, "icon": "SiFigma", "color": "#F24E1E" }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "مدونتي الشخصية",
+      "description": "منصة تدوين متكاملة مبنية مع Next.js و MDX، تدعم الكتابة بالعربية والإنجليزية",
+      "icon": "FaBlogger",
+      "technologies": ["Next.js", "React", "MDX", "Tailwind CSS"],
+      
+      "featured": true,
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "name": "موقع صالات",
+      "description": "تطبيق بسيط لحجز صالات الزفاف تم العمل عليه بمشروع تخرجي ",
+      "icon": "FaTasks",
+      "technologies": ["php", "html", "css,javascript"],
+      "featured": true,
+      "year": "2024"
+      
+    },
+    {
+      "id": 3,
+      "name": "Mind_Bloom",
+      "description": "موقع لحجز جلسات بعد ضغط العمل او الدراسه",
+      "icon": "FaShoppingCart",
+      "technologies": ["node.js", "React", "Tailwind", "Prisma"],
+      
+      "featured": false,
+      "year": "2023"
+    }
+    
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "مطور واجهات أمامية",
+      "company": "شركة dot Jordan",
+      "location": "عمان, الاردن",
+      "startDate": "2022-01",
+      "endDate": "الحاضر",
+      "description": "تطوير واجهات المستخدم باستخدام React و Next.js، العمل مع فريق لتطوير تطبيقات ويب عالية الأداء."
+    },
+    {
+      "id": 2,
+      "position": "مطور متدرب",
+      "company": "شركة بيرق للذكاء الاصطناعي",
+      "location": "عمان ,الاردن",
+      "startDate": "2024-06",
+      "endDate": "2024-12",
+      "description": "تدربت على تطوير الويب وساعدت في بناء مشاريع باستخدام HTML، CSS، JavaScript."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "بكالوريوس علوم حاسوب",
+      "institution": "جامعة الزرقاء الخاصه ",
+      "location": "الزرقاء",
+      "startDate": "2022",
+      "endDate": "2025",
+      "description": "تخصص في علوم الحاسوب، معدل تراكمي 88"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "name": "شهادة React المتقدمة",
+      "issuer": "Meta",
+      "date": "2023",
+      "link": "https://coursera.org/certificate/123"
+    },
+    {
+      "id": 2,
+      "name": "شهادة JavaScript Algorithms",
+      "issuer": "freeCodeCamp",
+      "date": "2022",
+      "link": "https://freecodecamp.org/certificate/456"
+    }
+  ],
+  "languages": [
+    {
+      "name": "العربية",
+      "level": "اللغة الأم",
+      "percentage": 100
+    },
+    {
+      "name": "الإنجليزية",
+      "level": "متوسط",
+      "percentage": 50
+    }
+  ],
+  "contact": {
+    "email": "rand@example.com",
+    "phone": "+962 7744552",
+    "address": "عمان، الاردن",
+    "calendar": "https://calendly.com/rand"
+  }
+}
