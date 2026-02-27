@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section id="about" className="about-section">
       <div className="container">
-        {/* Section Header */}
+        
         <div className="section-header">
           <h2 className="section-title">
             من <span>أنا</span>
@@ -50,7 +50,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Right Column - Tabs */}
+          
           <div className="about-tabs">
             <div className="tabs-header">
               <button 
@@ -87,7 +87,7 @@ export default function About() {
             </div>
 
             <div className="tabs-content">
-              {/* About Tab */}
+              
               {activeTab === 'about' && (
                 <div className="tab-pane">
                   <p className="about-bio">{personal.bio}</p>
@@ -139,7 +139,7 @@ export default function About() {
                 </div>
               )}
 
-              {/* Education Tab */}
+              
               {activeTab === 'education' && (
                 <div className="tab-pane">
                   <div className="timeline">

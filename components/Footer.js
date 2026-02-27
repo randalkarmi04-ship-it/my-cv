@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        {/* Main Footer */}
+        
         <div className="footer-main">
-          {/* Logo & Bio */}
+          
           <div className="footer-col">
             <h3 className="footer-logo">
               <span className="gradient-text">{personal.name.split(' ')[0]}</span>.dev
@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          
           <div className="footer-col">
             <h4 className="footer-title">روابط سريعة</h4>
             <ul className="footer-links">
@@ -48,7 +48,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
+          
           <div className="footer-col">
             <h4 className="footer-title">ماذا أقدم؟</h4>
             <ul className="footer-links">
@@ -60,7 +60,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+          
           <div className="footer-col">
             <h4 className="footer-title">معلومات الاتصال</h4>
             <ul className="footer-contact">
@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
+        
         <div className="footer-bottom">
           <p className="copyright">
             © {currentYear} {personal.name}. جميع الحقوق محفوظة
@@ -93,7 +93,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Back to Top Button */}
+      
       <button 
         className="back-to-top"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

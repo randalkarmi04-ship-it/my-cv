@@ -25,13 +25,13 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // محاكاة إرسال النموذج
+    
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
       
-      // إخفاء الرسالة بعد 5 ثواني
+      
       setTimeout(() => setSubmitStatus(null), 5000);
     }, 1500);
   };
@@ -39,7 +39,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact-section">
       <div className="container">
-        {/* Section Header */}
+        
         <div className="section-header">
           <h2 className="section-title">
             تواصل <span>معي</span>
@@ -51,7 +51,7 @@ export default function Contact() {
         </div>
 
         <div className="contact-container">
-          {/* Left Side - Contact Info */}
+          
           <div className="contact-info">
             <h3 className="info-title">معلومات الاتصال</h3>
             
@@ -99,7 +99,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Quick Actions */}
+            
             <div className="quick-actions">
               <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="action-btn github">
                 <Icon name="FaGithub" size={20} />
@@ -116,7 +116,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Side - Contact Form */}
+          
           <div className="contact-form">
             <h3 className="form-title">أرسل رسالة</h3>
             
